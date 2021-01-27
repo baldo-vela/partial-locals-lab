@@ -1,1 +1,2 @@
-<%= render 'form' %>
+ <%# refactoring to use 'local' <%= render 'form' %>    
+<%= render partial: 'form', locals: {student: @student} %>

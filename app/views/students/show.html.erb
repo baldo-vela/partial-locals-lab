@@ -1,3 +1,6 @@
 <h1>Student Info</h1>
 
-<%= render 'student' %>
+<%# Replaced with local method <%= render 'student' %>
+<%= render partial: 'student', locals: { student: @student} %>
+
+
